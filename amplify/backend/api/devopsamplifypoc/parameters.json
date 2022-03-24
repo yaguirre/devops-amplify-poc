@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "devopsamplifypoc",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authdevopsamplifypocd0a86abe",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
